@@ -1,0 +1,8 @@
+{
+  "dataset_url": "https://www.data.va.gov/data.json",
+  "logLevel": "info",
+  "dbConfig": {
+    "db_url": "postgres://postgres:123456@localhost:5432/vaonline"
+  },
+  "downloadPath": "downloads"
+}
