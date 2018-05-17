@@ -22,7 +22,7 @@ const {
   Rank,
   Branch,
   War
-} = require('@va/models');
+} = require('va-online-memorial-data-models');
 
 const OPTION_IGNORE_BAD_CSV_LINE = process.env.OPTION_IGNORE_BAD_CSV_LINE === 'true';
 const OPTION_IMPORT_EXTRA_DATA = process.env.OPTION_IMPORT_EXTRA_DATA === 'true';

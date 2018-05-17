@@ -16,7 +16,7 @@ const chalk = require('chalk');
 const logger = require('../common/logger');
 const datasetService = require('../services/dataset');
 const dataService = require('../services/data');
-const { syncDB, sequelize } = require('@va/models');
+const { syncDB, sequelize } = require('va-online-memorial-data-models');
 
 require('rxjs/Rx');
 require('rxjs-to-async-iterator');
